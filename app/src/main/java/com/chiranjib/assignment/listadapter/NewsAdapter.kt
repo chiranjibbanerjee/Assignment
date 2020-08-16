@@ -13,7 +13,7 @@ import com.chiranjib.assignment.model.RowsItem
 import kotlinx.android.synthetic.main.custom_view.view.*
 
 /**
- *
+ *Class extending The RecyclerView widget is a more advanced and flexible version of ListView.
  */
 class NewsAdapter(val list:List<RowsItem?>, val cntx: Context):RecyclerView.Adapter<NewsAdapter.VViewHolder>() {
 

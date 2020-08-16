@@ -15,6 +15,9 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 lateinit var assignmentViewModel: AssignmentViewModel
 
+/**
+ * Starting point of the Android application
+ */
 class MainActivity : AppCompatActivity() {
     @SuppressLint("WrongConstant")
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -10,7 +10,7 @@ import com.google.gson.reflect.TypeToken
 import java.lang.reflect.Type
 
 /**
- * Class to fetch response from the JSON file.
+ * Class to fetch the data from the JSON file and update the value to the View file.
  */
 class AssignmentViewModel(application: Application) :AndroidViewModel(application) {
 

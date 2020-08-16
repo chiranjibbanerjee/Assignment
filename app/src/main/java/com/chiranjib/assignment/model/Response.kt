@@ -1,5 +1,11 @@
 package com.chiranjib.assignment.model
 
+
+/**
+ * POJO class for the JSON
+ */
+
+
 data class Response(
 	val title: String? = null,
 	val rows: List<RowsItem?>? = null

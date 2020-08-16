@@ -4,6 +4,12 @@ import android.content.Context
 import java.io.IOException
 import java.io.InputStream
 
+/**
+ * Utility class to read the JSON file from the asset folder and parse the contents.
+ * Gson Parser
+ */
+
+
 object ResourceUtils {
     fun getJsonFromAssets(context: Context, fileName: String?): String? {
         val jsonString: String
